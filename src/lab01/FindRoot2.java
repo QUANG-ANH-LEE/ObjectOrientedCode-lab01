@@ -41,7 +41,8 @@ public class FindRoot2 {
 
 	double det = (num1*num5) - (num2*num4);
 	if(det==0){
-		System.out.println("The system has many solutions or no solution");
+		JOptionPane.showMessageDialog(null, "The System has many or no solution",
+				"Result", JOptionPane.INFORMATION_MESSAGE);
 	}
 	else {
 		double d1 = (num3*num5)-(num6*num2);
@@ -49,7 +50,7 @@ public class FindRoot2 {
 		
 		JOptionPane.showMessageDialog(null, "x = " 
 			+ (d1/det) + "\ny= " + (d2/det),
-			"The root of the system", JOptionPane.INFORMATION_MESSAGE);
+			"Result", JOptionPane.INFORMATION_MESSAGE);
 
 		System.exit(0);
 	}

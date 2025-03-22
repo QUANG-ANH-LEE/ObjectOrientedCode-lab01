@@ -17,7 +17,7 @@ public class FindRoot1 {
 				"Please input the second coefficient: ","Input the second coefficient",
 				JOptionPane.INFORMATION_MESSAGE);
 		num2 = Double.parseDouble(strNum2);
-		}while(num1==0||num2==0);
+		}while(num1==0);
 		
 		JOptionPane.showMessageDialog(null, "Root of the equal is: " 
 				+ ((-num2)/num1),
